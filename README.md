@@ -98,37 +98,39 @@ We concluded:
 Hackathon-folder structure:
 
 ```
-hackathon/
-│
-├── spider/                       ← Python 3.12 virtual environment
-│
-├── docs/                       ← Documentation for judges
-│   ├── ppt/                    ← PPT slides
-│   ├── report/                 ← Optional PDF/summary
-│   └── images/                 ← Images used in PPT/README
+Hackathon/
 │
 ├── data/
-│   ├── raw/                    ← Original datasets
-│   └── processed/              ← Cleaned or transformed data
+│   ├── raw/
+│   ├── processed/
+│   └── external/
 │
-├── notebooks/                  ← Jupyter notebooks for experiments
+├── docs/
+│   ├── images/
+│   ├── ppt/
+│   ├── problem-statement/
+│   └── report/
 │
-├── src/                        ← Source code
-│   ├── preprocessing.py
-│   ├── model_training.py
-│   ├── model_inference.py
-│   ├── utils.py
-│   └── api/
-│       └── main.py             ← FastAPI app 
+├── models/
+│   ├── preprocessor.pkl
+│   ├── svm_sgd_pipeline.joblib
+│   ├── xgb_booster.json
+│   
 │
-├── models/                     ← Saved ML models
+├── notebooks/
+│   └── 01-Main.ipynb
 │
-├── results/                    ← Output metrics, charts, logs
+├── submissions/
+│   ├── submission.xlsx
+│   └── submission_XGB.xlsx
 │
-├── requirements.txt            ← Dependency list
-├── requirements_installed.txt  ← Exact freeze of working environment
+├── spider/                # sSpider IDE environment (ignored)
 │
-└── README.md                   ← Documentation 
+├── .gitignore
+├── README.md
+├── requirements.txt
+└── requirements_installed.txt
+
 ```
 
 
