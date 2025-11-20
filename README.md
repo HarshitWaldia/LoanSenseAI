@@ -165,6 +165,7 @@ Two submissions generated:
 
 ---
 
+
 # 📝 Hackathon Project – Environment Setup & Structure Guide
 
 This README documents every step taken to set up the development environment for the hackathon, including Python installation, virtual environment creation, dependency installation, GPU considerations, and the recommended project folder structure.
