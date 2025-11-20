@@ -1,4 +1,6 @@
-# 🏦 LoanSense.AI - Loan Default Prediction – Bank Indessa
+> ## ⚠️ Important Note  
+> Due to hackathon time shortage and a few quick mistakes, this repo may not be completely polished.
+> # 🏦 LoanSense.AI - Loan Default Prediction – Bank Indessa
 
 ### *Machine Learning solution to identify potential loan defaulters*
 
@@ -164,6 +166,7 @@ Two submissions generated:
 * `submission_XGB.xlsx`
 
 ---
+
 
 # 📝 Hackathon Project – Environment Setup & Structure Guide
 
